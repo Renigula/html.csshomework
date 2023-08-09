@@ -1,0 +1,93 @@
+
+
+#container{
+    margin-left: 40px;
+    max-width: 100%;
+    display: grid;
+   
+   
+}
+.moose{
+    object-fit: contain;
+    height: 200px;
+    display: flex;
+    margin-top: 8px;
+    max-width: 100%;
+    
+}
+.article{
+    display: flex;
+    margin-left: 10px;
+    font-size: largerl;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 20px;
+    
+}
+.section{
+    display: flex;
+    flex-direction: row;
+   }
+.moosediv{
+    display: flex;
+
+    align-content: top;
+    flex-direction: row;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    height: 38px;
+    flex-direction: row;
+  }
+.home{
+    text-align: center;
+    flex: 1;
+    color: white;
+    margin: auto;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(175, 193, 142);
+    
+   }
+
+.fun_facts{
+    text-align: center;
+    margin:auto;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    background-color:rgb(175, 193, 142);
+   }
+   p{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+    background-color: rgb(169, 223, 237);
+   }
+   .moosesAreAwesome{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    max-width: 100%;
+   }
+   @media screen and (max-width: 600px) {
+    .my-element {
+      background-color: red;
+      color: black;
+    }
+  }
+  li{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+   
+  
+  
+  
+    
+   
+    
